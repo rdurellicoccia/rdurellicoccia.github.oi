@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="M. A. T. es un robot que ayuda a organizar el tiempo y las tareas mediante recordatorios luminosos y sonoros.">
+  <title>M. A. T. | Mi Amigo Tecnológico</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="M. A. T., ir al inicio">
+        <span class="brand-cloud" aria-hidden="true">☁</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#problematica">Problemática</a></li>
+        <li><a href="#solucion">Solución</a></li>
+        <li><a href="#el-robot">El Robot</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. INICIO -->
+    <section class="hero" id="inicio">
+      <div class="hero-inner container">
+        <div class="hero-copy">
+          <p class="eyebrow">Mi Amigo Tecnológico</p>
+          <h1>M. A. T.</h1>
+          <p class="hero-subtitle">Un pequeño gran aliado para<br class="desktop-only"> organizar tu tiempo y tus tareas.</p>
+          <a class="button button-blue" href="#solucion">Conocé nuestro robot <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-art">
+          <img src="assets/M.A.T.png" alt="M.A.T">
+          <span class="heart-cloud" aria-hidden="true">♥</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. PROBLEMÁTICA -->
+    <section class="problem section" id="problematica">
+      <div class="problem-inner container">
+        <div class="problem-copy">
+          <p class="eyebrow">La problemática</p>
+          <h2>El costo de no<br> concentrarse</h2>
+          <p>Nuestro robot responde a la necesidad de que cada vez hay más chicos/jóvenes con TDAH que pueden tener dificultades para organizarse y, por consecuencia, tienen malas calificaciones. Esto podría dificultar la educación inclusiva.</p>
+          <p>Este robot los ayuda a resolver uno de los problemas centrales del TDAH: la gestión del tiempo. Por eso, se enfoca en notificar la cantidad de tiempo que pasa en una tarea, ayudar con recordatorios y, si no se nota progreso en alguna tarea, llamar su atención para que vuelva a concentrarse.</p>
+        </div>
+        <div class="problem-art">
+          <img src="assets/persona abrumada.png" alt="persona abrumada">
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SOLUCIÓN -->
+    <section class="solution section" id="solucion">
+      <div class="container">
+        <p class="eyebrow centered">Nuestra solución</p>
+        <h2 class="section-title centered">Nuestra solución: M. A. T.</h2>
+        <div class="features">
+          <article class="feature-card">
+            <div class="feature-illustration clock" aria-hidden="true">⏱️</div>
+            <h3>Recordatorio de tiempo</h3>
+            <p>Se prende una luz LED y el buzzer cada 30 minutos, para que la persona sepa cuánto tiempo pasó desde que empezó una actividad.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-illustration task" aria-hidden="true">📚</div>
+            <h3>Selección de tarea</h3>
+            <p>El usuario selecciona una tarea previamente configurada con los botones A, B o A y B juntos. Después de una hora, el robot muestra su nombre en la pantalla y activa otra luz LED y el buzzer.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-illustration focus" aria-hidden="true">💻</div>
+            <h3>Seguimiento del progreso</h3>
+            <p>Al presionar el logotipo de la micro:bit, el robot registra el progreso. Si pasan más de 30 minutos sin un nuevo registro, activa la tercera luz LED y el buzzer para recordar que retome la actividad.</p>
+          </article>
+        </div>
+
+        <div class="everyday">
+          <div class="everyday-image">
+            <img src="assets/estudiando.png" alt="estudiando">
+          </div>
+          <div class="everyday-copy">
+            <h2>Casos cotidianos</h2>
+            <article class="quote-card quote-green">
+              <h3>“¿Cuánto tiempo pasó?”</h3>
+              <p>Es normal en las personas con TDAH no tener percepción del tiempo que transcurre, provocando que pasen que lleven cierto tiempo realizando una actividad cuando, a veces, es mucho más o mucho menos.</p>
+            </article>
+            <article class="quote-card quote-pink">
+              <h3>“¿Qué me estabas diciendo?”</h3>
+              <p>No es que no presten atención, a veces simplemente no pueden concentrarse para mucho tiempo y, después de unos minutos, su cabeza se va a otra cosa; por eso pueden olvidar las tareas asignadas en clase con mucha facilidad.</p>
+            </article>
+            <article class="quote-card quote-blue">
+              <h3>“No estoy avanzando nada...”</h3>
+              <p>Muchas veces sucede que, a pesar de realizar tareas, la persona siente que no ha avanzado nada. Es importante la organización para poder notar cuánto se ha realizado.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. EL ROBOT -->
+    <section class="robot-section section" id="el-robot">
+      <div class="container">
+        <div class="robot-showcase">
+          <img src="assets/armado.png" alt="Prototipo ilustrado de M. A. T.">
+        </div>
+
+        <div class="prototype-gallery">
+          <figure>
+            <img src="assets/conexiones 1.jpeg" alt="Fotografía del prototipo de M. A. T. y sus conexiones">
+            <figcaption>Prototipo y conexiones</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/conexiones 2.jpeg" alt="Fotografía de la placa micro:bit conectada al circuito">
+            <figcaption>Placa micro:bit y circuito</figcaption>
+          </figure>
+        </div>
+
+        <div class="materials">
+          <h2>Componentes y materiales</h2>
+          <ul>
+            <li><strong>Placa micro:bit:</strong> es el componente principal. La placa de expansión permite insertar la micro:bit, extender y facilitar su acceso.</li>
+            <li><strong>Tres luces LED:</strong> verde, amarilla y roja. Se encienden en las distintas situaciones.</li>
+            <li><strong>Buzzer:</strong> emite un sonido para alertar.</li>
+            <li><strong>Dos botones externos (A y B):</strong> permiten seleccionar las tareas. Al presionarlos individualmente o juntos, el usuario puede elegir distintas opciones.</li>
+            <li><strong>Cables de conexión:</strong> conectan los componentes electrónicos con la placa micro:bit, según el circuito utilizado.</li>
+          </ul>
+        </div>
+
+        <div class="guide-banner">
+          <div class="guide-icon" aria-hidden="true">📖</div>
+          <div class="guide-copy">
+            <h2>Armá tu propio M. A. T.</h2>
+            <p>Consultá el instructivo con la lista de materiales y los pasos para construir el robot.</p>
+          </div>
+          <!-- Reemplazá instructivo.pdf por el nombre real del archivo del instructivo. -->
+          <a class="button button-blue" href="https://docs.google.com/document/d/17khWTd4wHbzL8slEMSdKg5OMD9L462T8ZIZqlVIB4AU/edit?tab=t.0" target="_blank" rel="noopener">Ver instructivo <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CONTACTO -->
+    <section class="contact section" id="contacto">
+      <div class="contact-inner container">
+        <p class="eyebrow">Contacto</p>
+        <h2>Nos encantaría<br> saber de ti</h2>
+        <div class="contact-card">
+          <div><span>Teléfono</span><a href="tel:+541112345678">(11) 1234-5678</a></div>
+          <div><span>Correo</span><a href="mailto:mat@tptecho.com">mat@tptecho.com</a></div>
+          <div><span>Redes</span><span class="social-links"><a href="#" aria-label="Instagram">Instagram</a><a href="#" aria-label="X">X</a></span></div>
+        </div>
+        <div class="contact-cloud" aria-hidden="true">☁</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>M. A. T. — Mi Amigo Tecnológico</p>
+    <p>Proyecto escolar · Colegio Fasta San Vicente de Paúl</p>
+  </footer>
+</body>
+</html>
